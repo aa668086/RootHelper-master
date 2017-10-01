@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RootHelper Demo</string>
+    <string name="intro">这个示例展示了如何使用根特权（在根设备上）在非根设备上做不可能的事情.\n\n
+它刚刚一列在受保护的路径文件 \"/data/\".\n\n
+在非根设备，它将返回0个文件，并在根设备 (获得root权限), 它应该返回大于0的结果.</string>
+
+    <string name="repository_website">Repository website</string>
+    <string name="all_my_repositories">All my repositories</string>
+    <string name="all_my_apps">All my apps</string>
+    <string name="more_info">More info</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"/>
+
+    <Button
+        android:id="@+id/normalApiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="无根特权尝试"/>
+
+    <Button
+        android:id="@+id/rootButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="尝试使用root权限"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rootButton"
+        android:onClick="lundun"
+        android:text="进入任务栏"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"/>
+</LinearLayout>
